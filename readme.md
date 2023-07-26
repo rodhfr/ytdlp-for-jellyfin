@@ -1,10 +1,13 @@
 ### Script Install
+```bash
 git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
 cd ytdlp-for-jellyfin
 sudo chmod +x ./setup.sh
 sudo ./setup.sh
+```
 
 ### Manual Install
+```bash
 git clone this repository
 cd ytdlp-for-jellyfin
 sudo apt install pip
@@ -16,5 +19,6 @@ cat appendtobashrc.txt >> ~/.bashrc
 #python3 -m venv venv
 #source venv/bin/activate
 #pip install ./requirements.txt
+```
 
 
