@@ -1,6 +1,6 @@
 ### Script Install
 ```bash
-git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git && cd ytdlp-for-jellyfin && sudo chmod +x ./setup.sh && sudo ./setup.sh
+sudo apt install git && git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git && cd ytdlp-for-jellyfin && sudo chmod +x ./setup.sh && sudo ./setup.sh
 ```
 
 ### Manual Install
