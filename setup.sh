@@ -2,6 +2,7 @@
 
 # Clone the repository
 git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
+cd ytdlp-for-jellyfin
 
 # Install pip
 sudo apt install -y python3-pip
