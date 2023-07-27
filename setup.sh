@@ -15,8 +15,10 @@ mkdir -p ~/scripts
 
 # Copy ytdlp_functions.sh to the "scripts" directory
 cp ytdlp_functions.sh ~/scripts/
+sudo chmod +x ~/scripts/ytdlp_functions.sh
 
 # Append the contents of appendtobashrc.txt to .bashrc
 cat appendtobashrc.txt >> ~/.bashrc
+source ~/.bashrc
 
 echo "Setup completed successfully!"
