@@ -1,2 +1,0 @@
-source ~/scripts/ytdlp_functions.sh
-alias ytdlp='ytdlp_func' 
