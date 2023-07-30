@@ -1,4 +1,9 @@
 ## Setup
+Clone the repository
+```bash
+git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
+```
+
 Install the requirements
 
 ```bash
