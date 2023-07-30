@@ -1,8 +1,17 @@
+## Setup
+Install the requirements
+
+```bash
 pip3 install -r requirements.txt
+```
 
+Edit your bash or zsh
+
+```bash
 nano ~/.bashrc
+```
 
-Append:
+Append to your current file:
 ```bash
 ytdlp_func() {
 
@@ -46,11 +55,23 @@ ytdlp_func() {
 
 alias ytdlp='ytdlp_func' 
 ```
+Update bashrc or zshrc
+```bash
 source ~/.bashrc
+```
 
-now you can just
+## Easy run
+The alias is `ytdlp`, so you can just
+
+```bash
 ytdlp https://www.youtube.com/watch?v=jNQXAC9IVRw&pp=ygUPb2xkZXN0IHl0IHZpZGVv
-![Captura de tela de 2023-07-29 22-34-15](https://github.com/rodhfr/ytdlp-for-jellyfin/assets/83579016/66770930-bb60-4a17-aba7-9becf3dde52a)
+```
+
+The files will be placed into a folder with the same name as the youtube title, vtt into srt and json into nfo.
+
+![image](https://github.com/rodhfr/ytdlp-for-jellyfin/assets/83579016/2a83617a-4988-4e0e-ab9e-2bcd2dac89ac)
+
+
 
 
 
