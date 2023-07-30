@@ -21,7 +21,7 @@ Append to your current file:
 ytdlp_func() {
 
     # Run the alias
-    yt-dlp --write-info-json --write-sub --write-auto-sub -f "bestvideo[ext=mp4]+bestaudio[ext=opus]/best" "$@"
+    yt-dlp --sponsorblock-remove all --write-info-json --write-sub --write-auto-sub -f "bestvideo[ext=mp4]+bestaudio[ext=opus]/best" "$@"
     
     # crawl for the mp4 namefile
     local mp4_file
