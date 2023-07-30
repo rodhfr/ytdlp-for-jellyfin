@@ -1,3 +1,5 @@
+pip3 install -r requirements.txt
+
 nano ~/.bashrc
 
 Append:
@@ -45,3 +47,10 @@ ytdlp_func() {
 alias ytdlp='ytdlp_func' 
 ```
 source ~/.bashrc
+
+now you can just
+ytdlp https://www.youtube.com/watch?v=jNQXAC9IVRw&pp=ygUPb2xkZXN0IHl0IHZpZGVv
+![Captura de tela de 2023-07-29 22-34-15](https://github.com/rodhfr/ytdlp-for-jellyfin/assets/83579016/66770930-bb60-4a17-aba7-9becf3dde52a)
+
+
+
