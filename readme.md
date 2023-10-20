@@ -1,3 +1,6 @@
+# Description
+The files will be placed into a folder with the same name as the youtube title, vtt into srt and json into nfo.
+
 ## Setup
 Clone the repository
 ```bash
@@ -7,7 +10,7 @@ git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
 Install the requirements
 
 ```bash
-pip3 install -r requirements.txt
+pipx install -r requirements.txt
 ```
 
 Edit your bash or zsh
@@ -21,7 +24,7 @@ Append to your current file:
 ytdlp_func() {
 
     # Run the alias
-    yt-dlp --sponsorblock-remove all --write-info-json --write-sub --write-auto-sub -f "bestvideo[ext=mp4]+bestaudio[ext=opus]/best" "$@"
+    yt-dlp --ignore-config --sponsorblock-remove all --write-info-json --write-auto-sub -f "-f 137+251/299+251" "$@"
     
     # crawl for the mp4 namefile
     local mp4_file
