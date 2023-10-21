@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/rodhfr/ytdlp-for-jellyfin/main/yt2jelly.s
 ```
 
 ## Installing
-Clone the repository
+#### Clone the repository
 ```bash
 git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
 cd ./ytdlp-for-jellyfin
