@@ -15,7 +15,7 @@ if [ ! -d "$download_dir" ]; then
 else
     # If it already exists, just change to it
     cd "$download_dir"
-    echo "Your output folder is $download_dir sound and working..."
+    echo "Your output folder is $download_dir sound and working... To change this, modify the first line of /usr/bin/yt2jelly.sh"
 fi
 }
 
