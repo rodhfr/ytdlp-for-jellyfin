@@ -1,6 +1,7 @@
 # Description
 This is a simple bash script to place youtube videos in folder with metadata and subtitles for playing with Jellyfin.
 Files will be placed into a easily customizable folder with the same name as the youtube title, embeded automatic subs and json will be converted to nfo.
+You can use this script with rofi or dmenu to make easier to save youtube videos.
 
 ## Quick Run
 You can already test running the bash script plus the youtube link
