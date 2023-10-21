@@ -10,7 +10,8 @@ git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
 Install the requirements
 
 ```bash
-pipx install -r requirements.txt
+pipx install ytdl-nfo
+pipx install yt-dlp
 ```
 
 Edit your bash or zsh
