@@ -52,4 +52,7 @@ ytdlp_func() {
 
 c_working_dir
 ytdlp_func "$@"
-
+ls $download_dir
+echo "output folder is $download_dir"
+text="Click here to open local folder"
+echo -e "\e]8;;file://$download_dir\a$text\e]8;;\a"
