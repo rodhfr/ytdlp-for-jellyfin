@@ -26,6 +26,7 @@ You can already test running the bash script plus the youtube link
 And can copy to path to call within the terminal
 ```bash
 sudo cp yt2jelly.sh /usr/bin/
+sudo ln -s /usr/bin/yt2jelly.sh /usr/bin/yt2jelly
 ```
 
 The default folder is ~/Videos/youtube-dl
