@@ -10,6 +10,8 @@ pipx install yt-dlp
 wget https://raw.githubusercontent.com/rodhfr/ytdlp-for-jellyfin/main/yt2jelly.sh
 ./yt2jelly.sh https://youtube.com/thevideoyouwanttodownload
 ```
+The default folder is `~/Videos/youtube-dl`
+
 
 ## Installing
 #### Clone the repository
@@ -36,7 +38,7 @@ sudo ln -s /usr/bin/yt2jelly.sh /usr/bin/yt2jelly
 
 ---
 
-#### The default folder is `~/Videos/youtube-dl`
+## Change the default folder
 You can change the output folder in the first line of the script 
 ```bash
 sudo nano /usr/bin/yt2jelly.sh
