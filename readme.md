@@ -23,11 +23,14 @@ You can already test running the bash script plus the youtube link
 ```bash
 ./yt2jelly.sh https://youtube.com/thevideoyouwanttodownload
 ```
-And can copy to path to call within the terminal
+
+## Installing
+copy to path 
 ```bash
 sudo cp yt2jelly.sh /usr/bin/
 sudo ln -s /usr/bin/yt2jelly.sh /usr/bin/yt2jelly
 ```
+---
 
 The default folder is ~/Videos/youtube-dl
 You can change the output folder in the first line of the script 
