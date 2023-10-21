@@ -6,13 +6,13 @@ Files will be placed into a easily customizable folder with the same name as the
 Clone the repository
 ```bash
 git clone https://github.com/rodhfr/ytdlp-for-jellyfin.git
+cd ./ytdlp-for-jellyfin
 ```
 
 Install the requirements
 
 ```bash
-pipx install ytdl-nfo
-pipx install yt-dlp
+pipx install package --pip-args -r requirements.txt
 ```
 
 ```bash
