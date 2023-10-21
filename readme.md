@@ -32,7 +32,7 @@ sudo ln -s /usr/bin/yt2jelly.sh /usr/bin/yt2jelly
 ```
 ---
 
-The default folder is ~/Videos/youtube-dl
+The default folder is `~/Videos/youtube-dl`
 You can change the output folder in the first line of the script 
 ```bash
 sudo nano /usr/bin/yt2jelly.sh
@@ -41,7 +41,7 @@ sudo nano /usr/bin/yt2jelly.sh
 ```bash
 download_dir="$HOME/Videos/youtube-dl"
 ```
-change "$HOME/Videos/youtube-dl" to any path you want.
+change `"$HOME/Videos/youtube-dl"` to any path you want.
 
 ![image](https://github.com/rodhfr/ytdlp-for-jellyfin/assets/83579016/2a83617a-4988-4e0e-ab9e-2bcd2dac89ac)
 
