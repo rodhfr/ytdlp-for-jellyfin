@@ -5,10 +5,8 @@ Files will be placed into a easily customizable folder with the same name as the
 ## Quick Run
 You can already test running the bash script plus the youtube link
 ```bash
-pipx install ytdl-nfo
-pipx install yt-dlp
-wget https://raw.githubusercontent.com/rodhfr/ytdlp-for-jellyfin/main/yt2jelly.sh
-./yt2jelly.sh https://youtube.com/thevideoyouwanttodownload
+pipx install ytdl-nfo && pipx install yt-dlp && wget https://raw.githubusercontent.com/rodhfr/ytdlp-for-jellyfin/main/yt2jelly.sh
+./yt2jelly.sh "https://youtube.com/thevideoyouwanttodownload"
 ```
 The default folder is `~/Videos/youtube-dl`
 
