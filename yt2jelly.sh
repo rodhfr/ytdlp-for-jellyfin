@@ -10,12 +10,12 @@ if [ ! -d "$download_dir" ]; then
         cd "$download_dir"
         echo "Directory created and changed to $download_dir"
     else
-        echo "Failed to create directory."
+        echo "Failed to create directory. Check if you permissions are set correctly"
     fi
 else
     # If it already exists, just change to it
     cd "$download_dir"
-    echo "Directory already exists. Changed to $download_dir"
+    echo "Your output folder is $download_dir sound and working..."
 fi
 }
 
