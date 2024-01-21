@@ -1,6 +1,6 @@
 #!/bin/bash
 
-download_dir="$HOME/Videos/youtube-dl"
+download_dir="/home/rodhfr/Large-HD/Media/Youtube"
 
 c_working_dir() {
 if [ ! -d "$download_dir" ]; then
@@ -21,7 +21,7 @@ fi
 
 ytdlp_func() {
     # Run the alias
-    yt-dlp --ignore-config --sponsorblock-remove all --write-info-json --write-auto-sub --embed-subs --embed-thumbnail --paths "$download_dir" -f "137+251/299+251/135+251/bestvideo[height<=?1080][fps<=?60][vcodec!=?vp9]+bestaudio" "$@"
+    yt-dlp --ignore-config --sponsorblock-remove all --write-info-json --write-auto-sub --embed-subs --embed-thumbnail --paths "$download_dir" -f "299+bestaudio/312+bestaudio/298+bestaudio/136+bestaudio/22+bestaudio" "$@"
     
     # Crawl for the mp4 namefile
     local mkv_file
